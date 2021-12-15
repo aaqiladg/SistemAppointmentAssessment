@@ -43,8 +43,9 @@
         <td>{{$data->akhir}}</td>
         <td>{{$data->status}}</td>
         <td>
-        	<a href="jadwal/{{$data->id}}"><button type="button" class="btn btn-primary" >Approve</button></a>
-        	<a href="jadwal/{{$data->id}}/edit"><button type="button" class="btn btn-warning" >Reject</button></a>
+        	<a href=""><button type="button" class="btn btn-primary" >Approve</button></a>
+          
+        	<a href="jadwal/delete/{{$data->id}}"><button type="button" class="btn btn-warning" >Reject</button></a>
         </td>
       </tr>
       @endforeach
