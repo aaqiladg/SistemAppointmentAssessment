@@ -106,6 +106,16 @@ $datetime = date_create()->format('Y-m-d H:i:s');
         return redirect('jadwal'); 
     }
 
+    public function approved($id) {
+        $data = jadwal::find($id);
+
+        $data->status='Approved';
+
+        $data->save();
+
+        return redirect('jadwal');
+    }
+
 
 
 }
