@@ -49,8 +49,6 @@
     </tbody>
   </table>
   </div>
-  <a href='/jadwal' >
-  <button type="button" class="btn btn-default">Back</button> </a>
 </div>
 
 </body>
