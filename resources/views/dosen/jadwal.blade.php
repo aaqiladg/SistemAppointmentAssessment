@@ -51,8 +51,6 @@
       @endforeach
     </tbody>
   </table>
-  <a href="jadwal/create">
-   <button type="button" class="btn btn-primary">Create</button></a>
 
 
 </div>
